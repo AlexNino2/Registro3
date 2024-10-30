@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Registro</string>
+    <string name="registro">Registro</string>
+    <string name="nombre">Nombre</string>
+    <string name="email">Email</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confirmar_contrasena">Confirmar contraseña</string>
+    <string name="registrar">Registrar</string>
+    <string name="inicioSesion">Iniciar Sesion</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="apagate">Apagado</string>
+    <string name="prendete">Encendido</string>
+    <string name="ajustao">Ajustes</string>
+    <string name="perfilao">Perfil</string>
+    <string name="encendido">prendido</string>
+    <string name="apagado">sinLuz</string>
+    <string name="cuenta">Sesion</string>
+    <string name="ajustes">Configuracion</string>
+    <string name="gmail_persona">correo@ejemplo.com</string>
+    <string name="cierra_sesion">Cerrar Sesión</string>
+    <string name="imagen">fotito</string>
+    <string name="volver">Regresar</string>
+
+
+</resources>

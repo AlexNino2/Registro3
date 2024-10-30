@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:id="@+id/main3">
+
+    <ImageView
+        android:id="@+id/imageViewPerfil"
+        android:layout_width="124dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="72dp"
+        android:contentDescription="@string/cuenta"
+        android:src="@drawable/ic_perfil"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/textView4"
+        android:layout_width="137dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/perfilao"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageViewPerfil" />
+
+    <ImageView
+        android:id="@+id/imageViewAjustes"
+        android:layout_width="106dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="76dp"
+        android:contentDescription="@string/ajustes"
+        android:src="@drawable/ic_ajustes"
+
+        app:layout_constraintStart_toEndOf="@+id/imageViewPerfil"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/textView3"
+        android:layout_width="125dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/ajustao"
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewAjustes" />
+
+    <ImageView
+        android:id="@+id/imageViewEnciendeAlarma"
+        android:layout_width="127dp"
+        android:layout_height="179dp"
+        android:contentDescription="@string/encendido"
+        android:src="@drawable/ic_encender_alarma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <Button
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/prendete"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEnciendeAlarma" />
+
+    <ImageView
+        android:id="@+id/imageViewApagaAlarma"
+        android:layout_width="125dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="92dp"
+        android:contentDescription="@string/apagado"
+
+        android:src="@drawable/ic_apagar_alarma"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintStart_toStartOf="@id/imageViewEnciendeAlarma"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/buttonApagao"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="108dp"
+        android:text="@string/apagate"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

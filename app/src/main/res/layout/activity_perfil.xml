@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity"
+    android:id="@+id/main5">
+
+    <ImageView
+        android:id="@+id/userImage"
+        android:layout_width="137dp"
+        android:layout_height="133dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/imagen"
+        android:src="@drawable/ic_perfil" />
+
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/textViewGmail"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/salirBoton"
+        android:layout_width="229dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="@string/cierra_sesion"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/regresoBoton"
+        android:layout_width="229dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:text="@string/volver"
+        android:textSize="25dp" />
+</LinearLayout>
