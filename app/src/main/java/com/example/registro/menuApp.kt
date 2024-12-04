@@ -9,14 +9,22 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.registro.databinding.ActivityMenuAppBinding
+import com.example.registro.menusito1.perfilFragment
+
+
+
 
 class menuApp : AppCompatActivity() {
+    private lateinit var binding: ActivityMenuAppBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         enableEdgeToEdge()
 
-        setContentView(R.layout.activity_menu_app)
+        binding = ActivityMenuAppBinding.inflate(layoutInflater)
+
+        setContentView(binding.root)
 
         val mainView = findViewById<View>(R.id.main3)
 
@@ -28,6 +36,14 @@ class menuApp : AppCompatActivity() {
 
         val nombre = intent.getStringExtra("nombre")
         val gmail = intent.getStringExtra("gmail")
+
+        if ( savedInstanceState == null) {
+            supportFragmentManager.beginTransaction().replace(R.id.fragment_container,
+                perfilFragment()
+            ).commit()
+        }
+
+        binding.bottomNavigationView.setOnItemSelectedListener { when(it.itemId)}
 
         val cambiarPantalla5: Button = findViewById(R.id.textView4)
         cambiarPantalla5.setOnClickListener {
@@ -53,5 +69,9 @@ class menuApp : AppCompatActivity() {
         apagao.setOnClickListener {
             Toast.makeText(this,"💤❤Alarma Apagada❤💤",Toast.LENGTH_SHORT).show()
         }
+
+
+
+
     }
 }

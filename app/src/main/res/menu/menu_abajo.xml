@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/perfil1"
+        android:title="@string/perfilao"
+        android:icon="@drawable/ic_perfil"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/configuracion1"
+        android:title="@string/ajustes"
+        android:icon="@drawable/ic_ajustes"
+        android:enabled="true"
+        />
+
+    <item
+        android:id="@+id/alarma"
+        android:title="@string/alarmao"
+        android:icon="@drawable/ic_alarmas"
+        android:enabled="true"
+        />
+
+</menu>
