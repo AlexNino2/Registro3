@@ -95,7 +95,7 @@ class InicioSesion : AppCompatActivity() {
                 }
 
 
-                val intentMenu = Intent(this, menuApp::class.java)
+                val intentMenu = Intent(this, Menu_verdadero::class.java)
                 intentMenu.putExtra("nombre", nombre)
                 intentMenu.putExtra("gmail", gmail)
                 startActivity(intentMenu)

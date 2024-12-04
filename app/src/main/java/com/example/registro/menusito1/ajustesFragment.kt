@@ -11,6 +11,7 @@ import android.widget.Toast
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
+import com.example.registro.Menu_verdadero
 import com.example.registro.R
 import com.example.registro.menuApp
 
@@ -34,7 +35,7 @@ class AjustesFragment : Fragment() {
         // Button to navigate to menuApp activity
         val cambiarPantalla7: Button = view.findViewById(R.id.textView5)
         cambiarPantalla7.setOnClickListener {
-            val intent = Intent(requireContext(), menuApp::class.java)
+            val intent = Intent(requireContext(),Menu_verdadero::class.java)
             startActivity(intent)
         }
 

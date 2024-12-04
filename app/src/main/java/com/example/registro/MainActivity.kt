@@ -56,8 +56,12 @@ class MainActivity : AppCompatActivity() {
                     return@setOnClickListener
                 }
 
-                val intent = Intent(this, menuApp::class.java)
+                //val intent = Intent(this, menuApp::class.java)
+                //startActivity(intent)
+
+                val intent = Intent(this, Menu_verdadero::class.java)
                 startActivity(intent)
+
 
             } catch (e: Exception) {
                 Log.e("ErrorIniciarSesion","🍕🍕Error al iniciar sesion: ${e.message}🍕🍕")
