@@ -9,7 +9,6 @@
 
     <item
         android:id="@+id/configuracion1"
-        android:title="Cerrar Sesion"
         android:icon="@drawable/ic_ajustes"
         android:enabled="true"
         />
