@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:id="@+id/main3">
+
+    <ImageView
+        android:id="@+id/imageViewEnciendeAlarma"
+        android:layout_width="127dp"
+        android:layout_height="179dp"
+        android:contentDescription="@string/encendido"
+        android:src="@drawable/ic_encender_alarma"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.394" />
+
+    <Button
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/prendete"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewEnciendeAlarma" />
+
+    <ImageView
+        android:id="@+id/imageViewApagaAlarma"
+        android:layout_width="122dp"
+        android:layout_height="182dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/apagado"
+        android:src="@drawable/ic_apagar_alarma"
+        app:layout_constraintBottom_toTopOf="@+id/buttonApagao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintStart_toStartOf="@id/imageViewEnciendeAlarma" />
+
+    <Button
+        android:id="@+id/buttonApagao"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="264dp"
+        android:text="@string/apagate"
+        android:textSize="20sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toEndOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

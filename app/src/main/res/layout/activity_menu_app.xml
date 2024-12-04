@@ -83,12 +83,12 @@
         android:id="@+id/imageViewApagaAlarma"
         android:layout_width="125dp"
         android:layout_height="163dp"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="100dp"
         android:contentDescription="@string/apagado"
 
         android:src="@drawable/ic_apagar_alarma"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.729"
+        app:layout_constraintHorizontal_bias="0.798"
         app:layout_constraintStart_toStartOf="@id/imageViewEnciendeAlarma"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -103,6 +103,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView2" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_abajo"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

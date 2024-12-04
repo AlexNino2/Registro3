@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "739569171276",
+    "project_id": "alarmaseguridad-dfd5c",
+    "storage_bucket": "alarmaseguridad-dfd5c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739569171276:android:dfbe73d0c682e479d76de9",
+        "android_client_info": {
+          "package_name": "com.example.registro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPmC0mdKmcOtvQmKHHT2Qn6MYOFpZdBp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

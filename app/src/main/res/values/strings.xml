@@ -20,6 +20,9 @@
     <string name="cierra_sesion">Cerrar Sesión</string>
     <string name="imagen">fotito</string>
     <string name="volver">Regresar</string>
+    <string name="alarmao">Alarmas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

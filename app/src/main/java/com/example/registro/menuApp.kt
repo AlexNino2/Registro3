@@ -9,12 +9,19 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.registro.databinding.ActivityMenuAppBinding
+
+
+
 
 class menuApp : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         enableEdgeToEdge()
+
+
 
         setContentView(R.layout.activity_menu_app)
 
@@ -28,6 +35,7 @@ class menuApp : AppCompatActivity() {
 
         val nombre = intent.getStringExtra("nombre")
         val gmail = intent.getStringExtra("gmail")
+
 
         val cambiarPantalla5: Button = findViewById(R.id.textView4)
         cambiarPantalla5.setOnClickListener {
@@ -53,5 +61,9 @@ class menuApp : AppCompatActivity() {
         apagao.setOnClickListener {
             Toast.makeText(this,"💤❤Alarma Apagada❤💤",Toast.LENGTH_SHORT).show()
         }
+
+
+
+
     }
 }
